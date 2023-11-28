@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /*background-image: url("images/halfmoon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  background-color: rgb(9, 93, 99);
+  color: #fff;
+}
+
+.container{
+  max-width: 90rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header{
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+header > .title{
+  margin-bottom: 0;
+  font-size: 3rem;
+  text-shadow: 2px 3px 1px rgb(0,0,0,1);
+}
+
+.header >p{
+  font-size: 1.5rem;
+}
+
+.tribute{
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+  max-width: 70rem;
+  margin: 0 auto;
+  background-color: white;
+  color: goldenrod;
+  align-items: center;
+  padding: 0 0 0 1rem;
+}
+
+.tribute blockquote{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.tribute img{
+  max-width: 100%;
+}
+
+.bio{
+  margin: 2rem auto;
+  padding: 0 0.5rem;
+  max-width: 50rem;
+}
+
+.bio > h2{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+  color: black;
+}
+
+.bio > p{
+  font-size: 1rem;
+  line-height: 1.4rem;
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+.bio > hr{
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
